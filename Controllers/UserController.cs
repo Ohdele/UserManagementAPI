@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Collections.Generic;
+
 
 namespace UserManagementAPI.Controllers
 {

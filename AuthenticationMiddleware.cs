@@ -1,6 +1,9 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Builder;
+using System.Linq;
+
 
 public class AuthenticationMiddleware
 {
