@@ -3,8 +3,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 using System.Collections.Generic;
-using System;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,7 +30,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseErrorHandlingMiddleware();
-app.UseAuthenticationMiddleware();  // Authentication middleware to validate tokens
 app.UseLoggingMiddleware();         // Logging middleware to log requests/responses
 app.UseAuthorization();
 app.MapControllers();

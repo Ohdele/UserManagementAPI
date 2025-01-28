@@ -32,7 +32,12 @@
 
 *   **Expected Output:**
     *   Status Code: 201 Created
-    *   Response Body (example): `{"id": 1, "name": "John Doe", "email": "john.doe@example.com"}` (The `id` might be different on subsequent runs after restarts)
+    *   Response Body (example):
+    {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+    }
 
 **3. GET the created user by ID (John Doe):**
 
@@ -41,7 +46,12 @@
 
 *   **Expected Output:**
     *   Status Code: 200 OK
-    *   Response Body (example): `{"id": 1, "name": "John Doe", "email": "john.doe@example.com"}`
+    *   Response Body (example):
+    {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+    }
 
 **4. POST another user (Jane Doe):**
 
